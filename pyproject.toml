@@ -1,0 +1,15 @@
+[project]
+name = "anisora"
+description = "ComfyUI-AniSora is now available in ComfyUI, Index-AniSora is the most powerful open-source animated video generation model. It enables one-click creation of video shots across diverse anime styles including series episodes, Chinese original animations, manga adaptations, VTuber content, anime PVs, mad-style parodies(鬼畜动画), and more!"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.4.0", "torchvision>=0.19.0", "opencv-python>=4.9.0.80", "diffusers>=0.31.0", "transformers==4.46.1", "tokenizers>=0.20.3", "accelerate>=1.1.1", "tqdm", "imageio", "easydict", "ftfy", "dashscope", "imageio-ffmpeg", "gradio>=5.0.0", "numpy>=1.23.5,<2", "flash-attn"]
+
+[project.urls]
+Repository = "https://github.com/Yuan-ManX/ComfyUI-AniSora"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-AniSora"
+Icon = ""
