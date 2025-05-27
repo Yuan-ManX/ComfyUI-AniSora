@@ -37,7 +37,7 @@ class LoadAniSoraModel:
         return (model,)
 
 
-class Prompt:
+class AniSoraPrompt:
     @classmethod
     def INPUT_TYPES(s):
         return {
